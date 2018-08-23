@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#top {
+	width: 1024px;
+	height: 768px;
+	margin: 50px auto 0px; 
+}
+
+#button {
+	position: relative;
+	width: 1024px;
+	height: 59px;
+	margin: 10px auto;
+}
+
+#button_1 {
+	position: relative;
+	width: 500px;
+	height: 59px;
+	margin: 10px auto;
+}
+
+#img {
+	width: 1024px;
+	height: 768px;
+}
+
+.next, .prev, .next_1, .prev_1 {
+	position: absolute;
+	font-size: 30px;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+}
+
+#next, #next_1 {
+	right: 0;
+}
+
+#mini_slider_big {
+	position: relative;
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.img_1 {
+	opacity: 0.5;
+}
+
+#mini_slider {
+	position: absolute;
+	width: 1000px;
+}
+
+.img_1 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
